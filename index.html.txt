@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Marry Me?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hi love, I have something to ask...</h1>
+    <p>Our love is special, and I’ve been thinking about us a lot...</p>
+    <p>So... here it goes...</p>
+
+    <div class="question">
+      <p>Will you marry me?</p>
+      
+      <input type="text" id="userResponse" placeholder="Your answer here..." />
+      <button onclick="submitResponse()">Submit</button>
+    </div>
+
+    <div id="responseMessage" class="response-message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
